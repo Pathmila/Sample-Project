@@ -8,7 +8,7 @@ import {Course} from '../course';
 })
 export class CoursesComponent implements OnInit {
 
-  course = Course{
+  course: Course={
     id: 1,
     name: "Angular";
   } 
