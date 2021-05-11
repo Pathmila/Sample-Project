@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ITS_JUST_ANGULAR } from '@angular/core/src/r3_symbols';
+import {Course} from '../course';
 
 @Component({
   selector: 'app-courses',
@@ -8,7 +8,10 @@ import { ITS_JUST_ANGULAR } from '@angular/core/src/r3_symbols';
 })
 export class CoursesComponent implements OnInit {
 
-  course = "Angular";
+  course = Course{
+    id: 1,
+    name: "Angular";
+  } 
 
   constructor() { }
 
