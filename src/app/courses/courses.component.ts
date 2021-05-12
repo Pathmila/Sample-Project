@@ -11,7 +11,7 @@ export class CoursesComponent implements OnInit {
   course: Course={
     id: 1,
     name: 'Angular'
-  } 
+  }
 
   constructor() { }
 
