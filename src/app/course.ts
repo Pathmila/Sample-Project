@@ -1,5 +1,5 @@
 export class Course{
-    id: number = -1;
-    name: string = "";
+    id: number | undefined;
+    name: string | undefined;
 }
 

@@ -1,5 +1,7 @@
+import { COURSES } from './../mock-courses';
 import { Component, OnInit } from '@angular/core';
 import {Course} from '../course';
+
 
 @Component({
   selector: 'app-courses',
@@ -8,10 +10,7 @@ import {Course} from '../course';
 })
 export class CoursesComponent implements OnInit {
 
-  course: Course={
-    id: 1,
-    name: 'Angular'
-  }
+  course = COURSES;
 
   constructor() { }
 
